@@ -1,4 +1,4 @@
-RBACModels
+Yii RBACModels
 ==========
 
 extends CActiveRecord model to include RBAC (Role Based Access Control) in find functions
@@ -12,7 +12,7 @@ Its use is pretty simple: just install it, change your ACRecord model class with
 *NOTE: - this class is in alpha state and has not been optimized and on large datasets it could have some performance issue. Any contribution in its development and comments are much appreciated. - this extension pack also contains a modified version of CActiveDataProvider that should be be used together with RBACActiveRecord, because recalculates the total number of items according to RBAC filtering.
 
 TO INSTALL THIS EXTENSION
-unpack RBACModels.zip into extension folder
+git  clone into extension folder
 add:
 ~~~
 [php]
